@@ -1,0 +1,182 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.icon {
+  margin: 0px 10px;
+  font-size: 20px;
+  color: grey;
+  height: 3;
+}
+
+.searchBar span {
+  margin-left: 10px;
+}
+.searchBar div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid grey;
+  height: 35px;
+  width: 300px;
+}
+
+.searchBar .searchIcon {
+  background-color: rgb(19, 23, 87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.searchBar input[type="text"] {
+  border: none;
+  outline: none;
+  color: grey;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.searchBar_start {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.toggleMenu {
+  position: absolute;
+  background-color: white;
+  width: 500px;
+  height: 250%;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-right: 1px solid grey;
+}
+
+.toggleMenu li {
+  display: flex;
+}
+
+.arrowIcon {
+  color: grey;
+  margin: 0px 10px;
+}
+
+.closeIcon {
+  color: grey;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.toggleMenuRight {
+  position: absolute;
+  background-color: white;
+  width: 450px;
+  height: 250%;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  border-left: 1px solid grey;
+}
+
+.formUp,
+.formDown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formUp input,
+.formDown input {
+  margin: 5px;
+}
+
+.formUp h4,
+.formDown h4 {
+  font-size: 25px;
+  color: rgb(71, 71, 167);
+  font-weight: 400;
+  margin: 20px;
+}
+
+.formUp form,
+.formDown form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.toggleMenuRight form input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 300px;
+  padding: 5px;
+}
+
+.toggleMenuRight form input[type="checkbox"] {
+  width: 20px;
+}
+
+.toggleMenuRight form select {
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+.button {
+  padding: 6px 30px;
+  font-size: 16px;
+  width: 100%;
+  font-weight: 100;
+  color: white;
+  border-radius: 8px;
+  color: rgb(71, 71, 167);
+  background-color: white;
+  outline: none;
+  border: 1px solid rgb(71, 71, 167);
+}
+
+.buttonRegister {
+  padding: 8px 30px;
+  font-size: 16px;
+  width: 300px;
+  font-weight: 100;
+  background-color: rgba(11, 168, 50, 0.699);
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.regIcon {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.closeIconRight {
+  height: 50px;
+  padding: 10px;
+}
+
+.conditions {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+}

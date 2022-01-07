@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+.left_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  color: grey;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+}
+.middle_add {
+  display: flex;
+  color: grey;
+}
+.middle_add a {
+  margin-left: 10px;
+}
+.middle_add span {
+  display: flex;
+  color: red;
+  justify-content: right;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+}

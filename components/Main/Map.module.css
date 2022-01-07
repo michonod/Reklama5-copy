@@ -1,0 +1,20 @@
+.map {
+  margin-left: 50px;
+  width: 600px;
+}
+
+.map svg {
+  width: 600px;
+  height: 600px;
+  margin: 0px 30px;
+  fill: white;
+  stroke: black;
+}
+
+.map path:hover {
+  fill: #560d9277;
+}
+
+.mainBottom {
+  display: flex;
+}
